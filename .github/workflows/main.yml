@@ -10,3 +10,10 @@ jobs:
     steps: 
       - name: Print Welcome
         run: echo "Hello world"
+
+      - name: Checkout 
+        uses: actions/checkout@v5.0.0
+
+      - name: List files
+        run: ls -la
+
