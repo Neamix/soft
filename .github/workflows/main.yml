@@ -2,7 +2,7 @@ name: First Flow
 on: 
   push: 
     branches: 
-      - main
+      - master
 jobs: 
   example-job: 
     runs-on: ubuntu-latest 
